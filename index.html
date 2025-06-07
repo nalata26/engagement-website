@@ -117,16 +117,19 @@
                 <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_6235.JPG" class="wp1"></div>
                 <div class="col-md-6">
                     <p>
-                        I first saw Antara in the Fall of 2008 when we started our undergrad. I was instantly attracted
-                        to
-                        her but was far too nervous to speak to her. I had told my friend I liked her and news had
-                        traveled
-                        fast and she soon found out. Her first reaction was "Who is Ram?" and she began searching for me
-                        in
-                        the class. She started to take notice of me and no matter how boring the lecture was, we never
-                        missed a class after that. After a good few months I finally plucked up the courage to ask her
-                        out
-                        and the rest is history :)
+                        Sau hành trình hơn 2 năm đầy kỉ niệm, sóng gió và tràn ngập tình yêu.<br> 
+                        Hai đứa mình mình sẽ chính thức đánh dấu chặng đường mới bằng lễ đám hỏi vào ngày 12/7 tới.<br>
+                        Muốn chia sẻ niềm vui này với những người bạn thân thiết nhất – và không thể thiếu các bạn được
+                        đâu nha! 🥰<br>
+
+                        Không cần chuẩn bị gì nhiều, chỉ mong mọi người tới chung vui, ăn miếng bánh, uống tách trà,
+                        chụp vài tấm hình và ngồi trò chuyện như những ngày tụi mình còn tụ tập mỗi tuần 😄<br>
+
+                        Biết ai cũng bận rộn, nhưng thật lòng tụi mình rất mong có sự hiện diện của các bạn trong dịp
+                        đặc biệt này.<br>
+
+                        Nhớ ghé nha! Tụi mình chờ đó!<br>
+                        ❤️ Ký tên: 🐉🐶
                     </p>
                 </div>
                 <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_5657.JPG" class="wp2"></div>
@@ -397,87 +400,95 @@
             </div>
         </div>
     </section>
-    
+
     <section id="map" class="section-padding">
-    <div class="text-center">
-        <h3>Địa Điểm</h3>
-        <p>Cách dễ nhất để đến với chúng mình</p>
-    </div>
-
-    <div class="slider-container">
-        <button class="prev">&#10094;</button>
-        <div class="slider">
-            
-            <div class="slide"><img src="img/eng_pics/DJI_0393.jpg" alt=""></div>
-            <div class="slide"><img src="img/eng_pics/ta-puong.jpg" alt=""></div>
-            <div class="slide"><img src="img/eng_pics/DJI_0395.jpg" alt=""></div>
+        <div class="text-center">
+            <h3>Địa Điểm</h3>
+            <p>Cách dễ nhất để đến với chúng mình</p>
         </div>
-        <button class="next">&#10095;</button>
-    </div>
-</section>
 
-<style>
-body {
-    margin: 0;
-}
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <div class="slider">
 
-.slider-container {
-    position: relative;
-    width: 100vw; /* full width of the viewport */
-    overflow: hidden;
-}
+                <div class="slide"><img src="img/eng_pics/DJI_0393.jpg" alt=""></div>
+                <div class="slide"><img src="img/eng_pics/ta-puong.jpg" alt=""></div>
+                <div class="slide"><img src="img/eng_pics/DJI_0395.jpg" alt=""></div>
+            </div>
+            <button class="next">&#10095;</button>
+        </div>
+    </section>
 
-.slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 300vw; /* 100vw per slide x 3 slides */
-}
+    <style>
+        body {
+            margin: 0;
+        }
 
-.slide {
-    width: 100vw;
-    flex-shrink: 0;
-}
+        .slider-container {
+            position: relative;
+            width: 100vw;
+            /* full width of the viewport */
+            overflow: hidden;
+        }
 
-.slide img {
-    width: 100vw;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 300vw;
+            /* 100vw per slide x 3 slides */
+        }
 
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    padding: 15px;
-    cursor: pointer;
-    z-index: 10;
-    font-size: 24px;
-}
+        .slide {
+            width: 100vw;
+            flex-shrink: 0;
+        }
 
-.prev { left: 10px; }
-.next { right: 10px; }
-</style>
+        .slide img {
+            width: 100vw;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
 
-<script>
-let currentIndex = 0;
-const slides = document.querySelectorAll('.slide');
-const slider = document.querySelector('.slider');
+        .prev,
+        .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            z-index: 10;
+            font-size: 24px;
+        }
 
-function showSlide(index) {
-    if (index < 0) currentIndex = slides.length - 1;
-    else if (index >= slides.length) currentIndex = 0;
-    else currentIndex = index;
+        .prev {
+            left: 10px;
+        }
 
-    slider.style.transform = `translateX(-${currentIndex * 100}vw)`;
-}
+        .next {
+            right: 10px;
+        }
+    </style>
 
-document.querySelector('.prev').addEventListener('click', () => showSlide(currentIndex - 1));
-document.querySelector('.next').addEventListener('click', () => showSlide(currentIndex + 1));
-</script>
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const slider = document.querySelector('.slider');
+
+        function showSlide(index) {
+            if (index < 0) currentIndex = slides.length - 1;
+            else if (index >= slides.length) currentIndex = 0;
+            else currentIndex = index;
+
+            slider.style.transform = `translateX(-${currentIndex * 100}vw)`;
+        }
+
+        document.querySelector('.prev').addEventListener('click', () => showSlide(currentIndex - 1));
+        document.querySelector('.next').addEventListener('click', () => showSlide(currentIndex + 1));
+    </script>
 
     <footer>
         <div class="container">
