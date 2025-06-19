@@ -163,62 +163,42 @@
             </div>
             <div class="row">
                 <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img/eng_pics/IMG_5973.JPG">
+                    <a class="fancybox" rel="group" href="#">
                         <div class="img-wrap">
                             <div class="overlay">
                                 <i class="fa fa-search"></i>
                             </div>
-                            <img src="img/eng_pics/IMG_5973.JPG" alt="" />
+                            <img src="#" alt="" />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img/eng_pics/IMG_4338.JPG">
+                    <a class="fancybox" rel="group" href="#">
                         <div class="img-wrap">
                             <div class="overlay">
                                 <i class="fa fa-search"></i>
                             </div>
-                            <img src="img/eng_pics/IMG_4338.JPG" alt="" />
+                            <img src="#" alt="" />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img/eng_pics/IMG_5904.JPG">
+                    <a class="fancybox" rel="group" href="img/eng_pics/IMG_3814.JPG">
                         <div class="img-wrap">
                             <div class="overlay">
                                 <i class="fa fa-search"></i>
                             </div>
-                            <img src="img/eng_pics/IMG_5904.JPG" alt="" />
+                            <img src="img/eng_pics/IMG_3814.JPG" alt="" />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img/eng_pics/IMG_5921.JPG">
+                    <a class="fancybox" rel="group" href="img/eng_pics/IMG_3816.JPG">
                         <div class="img-wrap">
                             <div class="overlay">
                                 <i class="fa fa-search"></i>
                             </div>
-                            <img src="img/eng_pics/IMG_5921.JPG" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img/eng_pics/IMG_5001.JPG">
-                        <div class="img-wrap">
-                            <div class="overlay">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <img src="img/eng_pics/IMG_5001.JPG" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a class="fancybox" rel="group" href="img/eng_pics/IMG_6291.JPG">
-                        <div class="img-wrap">
-                            <div class="overlay">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <img src="img/eng_pics/IMG_6291.jpg" alt="" />
+                            <img src="img/eng_pics/IMG_3816.JPG" alt="" />
                         </div>
                     </a>
                 </div>
@@ -230,26 +210,67 @@
             </div>
         </div>
     </section>
-    <section class="events section-padding" id="events">
+    <section id="events">
         <div class="container">
-            <h2 class="header"> Được Tổ Chức </h3>
-                <div class="event-content-wrapper">
-                    <div class="wp3 event-item">
-                        <p class="event-date"><strong>12/07</strong></p>
-                        <h5 class="event-title">Lễ Đính Hôn<span class="time"> 7:00 AM </span></h5>
-                        <p class="event-description"><span class="highlight">Lễ Đính Hôn</span> được cử hành <br>
-                            vào lúc 7:00 sáng ngày 12/07/2025 tại <span class="highlight">Tư Gia nhà gái</span>.</p>
-                    </div>
-                    <div class="wp5 event-item">
-                        <h5 class="event-title">Tiệc chiêu đãi<span class="time"> 11:00 AM </span></h5>
-                        <p class="event-description">Sau <span class="highlight">Lễ Đính Hôn</span>, kính mời các bạn cùng ở lại dùng <span class="highlight">Bữa Tiệc Thân Mật</span>
-                            để
-                            chung vui với hai chúng mình tại <span class="highlight">Tư Gia nhà gái</span> vào lúc 11:00.</p>
-                    </div>
+            <div class="event-content-wrapper">
+                <div class="event-item">
+                    <p class="event-date"><strong>12/07</strong></p>
+                    <h5 class="event-title">Lễ Đính Hôn <span class="time">7:00 AM</span></h5>
+                    <p class="event-description">
+                        <strong>Lễ Đính Hôn</strong> được cử hành vào lúc 7:00 sáng ngày 12/07/2025 tại <strong>Tư Gia
+                            nhà gái</strong>.
+                    </p>
                 </div>
+                <div class="event-item">
+                    <h5 class="event-title">Tiệc Chiêu Đãi <span class="time">11:00 AM</span></h5>
+                    <p class="event-description">
+                        Sau <strong>Lễ Đính Hôn</strong>, kính mời các bạn cùng ở lại dùng <strong>Bữa Tiệc Thân
+                            Mật</strong> tại
+                        <strong>Tư Gia nhà gái</strong> lúc 11:00.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
+
     <style>
+        #events {
+            background: url('img/eng_pics/IMG_3815_resized_1107x1490.jpg') center center;
+            background-size: cover;
+            min-height: 750px;
+            /* giống .hero */
+            position: relative;
+            padding: 100px 0;
+            color: #fff;
+            /* nếu text trắng nhìn rõ hơn */
+            z-index: 1;
+
+        }
+
+        /* Xóa lớp phủ đậm nếu đang có */
+        #events::before {
+            display: none;
+        }
+
+        /* Làm box trong suốt nhẹ */
+        #events .event-item {
+            background-color: rgba(255, 255, 255, 0.85);
+            /* trắng nhẹ, không che nền quá nhiều */
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Đảm bảo nội dung không dính nền tối */
+        #events .container {
+            position: relative;
+            z-index: 2;
+            background: transparent;
+            padding: 0 15px;
+        }
+
+
         .slider-container {
             position: relative;
             width: 100vw;
